@@ -6,6 +6,10 @@ Neovim is a fork of Vim (Vi Improved) which focuses on extensibility and simplic
 - file marks
 - syntax highlighting
 - code autocomplete
+- colourscheme
+
+## Colourscheme
+This config uses Catppuccin just like the TMUX config does with the same available flavours of mocha, frappe, latte and macchiato. They can be changed in the setup function for Catppuccin found in the init.lua file. By default mocha is used just like TMUX.
 
 ## Mark Files
 A concept probably unfamiliar to you is mark files. This [video](https://www.youtube.com/watch?v=Qnos8aApa9g&ab_channel=ThePrimeagen) and the [repository's readme](https://github.com/ThePrimeagen/harpoon) explains in more depth but essentially they are a file you bookmark to jump to quickly.

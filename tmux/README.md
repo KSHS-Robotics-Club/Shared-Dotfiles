@@ -11,6 +11,6 @@ TMUX allows you to effectively manage and navigate your terminals. To learn more
 - switch to pane left = C-h
 - switch to pane right = C-l
 
-## Colorscheme
-The colorscheme used is the same as the Neovim one, Catppuccin. The available values are mocha, frappe, latte and macchiato. By default mocha is used (same as Neovim).
+## Colourscheme
+The colourscheme used is the same as the Neovim one, Catppuccin. The available values are mocha, frappe, latte and macchiato. By default mocha is used (same as Neovim). It can be changed in the tmux.conf file under cattpuccin flavour. 
 
