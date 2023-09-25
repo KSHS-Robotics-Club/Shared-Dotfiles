@@ -1,0 +1,6 @@
+[core]
+	editor = nvim
+[init]
+	defaultBranch = master
+[alias]
+	ac = commit -am
