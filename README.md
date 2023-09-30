@@ -8,6 +8,7 @@ git clone https://github.com/KSHS-Robotics-Club/Shared-Dotfiles.git ~/Dotfiles
 cd ~/Dotfiles
 chmod +x install.sh
 sudo ./install.sh
+gh auth login
 ```
 
 ## Features
