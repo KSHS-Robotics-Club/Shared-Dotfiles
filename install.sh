@@ -24,7 +24,11 @@ sudo apt-get install ripgrep
 sudo apt-get install tmux
 https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
+# github cli
+sudo apt install github-cli
+
 # link configs link
+# these links are required in order for these things to take effect
 
 # neovim conf
 ln -s ~/Dotfiles/nvim ~/.config/nvim

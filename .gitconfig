@@ -1,6 +1,8 @@
 [core]
-	editor = nvim
+	# open vim for git by default
+	editor = vim
 [init]
 	defaultBranch = master
 [alias]
+	# you can use git ac "msg here" to commit and add code
 	ac = commit -am
