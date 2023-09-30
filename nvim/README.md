@@ -1,5 +1,5 @@
 # Neovim Config
-Neovim is a fork of Vim (Vi Improved) which focuses on extensibility and simplicity. It is fast, lightweight and powerful. You will want to familiarise yourself with Vim keybindings, try [this](https://www.openvim.com/) and also learn vim better, try [Primeagen Vim Tutorial](https://www.youtube.com/watch?v=X6AR2RMB5tE&list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R&ab_channel=ThePrimeagen). This config combines vimscript (.vim) and lua (.lua) For a clean experience. 
+Neovim is a fork of Vim (Vi Improved) which focuses on extensibility and simplicity. It is fast, lightweight and powerful. You will want to familiarise yourself with Vim keybindings, try [this](https://www.openvim.com/) or run the command vimtutor in your terminal. You will also want to learn vim better, try [Primeagen Vim Tutorial](https://www.youtube.com/watch?v=X6AR2RMB5tE&list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R&ab_channel=ThePrimeagen). This config combines vimscript (.vim) and lua (.lua) For a clean experience. 
 
 ## File Structure
 The file structure includes 2 key directories, after and lua along with 1 important file `init.lua`. The `init.lua` file is the file which is loaded when you open Neovim. The after directory is loaded after the `init.lua` file is loaded. It has two key directories, plugin and ftplugin.  
