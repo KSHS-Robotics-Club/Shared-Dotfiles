@@ -1,4 +1,4 @@
-require("spacey-sooty")
+require("user")
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
@@ -37,19 +37,4 @@ require("lazy").setup({
 		}
 	}
 })
-
-require("gitsigns").setup()
-require("nvim-autopairs").setup()
-require("mini.comment").setup()
-require("nvim-treesitter.configs").setup({
-	ensure_installed = { "c", "markdown", "lua", "scss", "typescript", "rust" },
-	sync_install = false,
-	highlight = { enable = true },
-	indent = { enable = true },
-})
-require("catppuccin").setup({})
-
-vim.cmd.colorscheme("catppuccin")
-vim.g.mapleader = " "
-vim.cmd.set("nu rnu")
 
