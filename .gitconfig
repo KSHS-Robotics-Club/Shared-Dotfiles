@@ -1,5 +1,4 @@
 [core]
-	# open vim for git by default
 	editor = vi
 [init]
 	defaultBranch = master
