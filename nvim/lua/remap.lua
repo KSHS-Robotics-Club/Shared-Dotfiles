@@ -1,9 +1,9 @@
 -- set leader key
 vim.g.mapleader = " "
 
--- set : to ; (much easier to press)
+-- set : to ; (minorly easier to press)
 vim.keymap.set("n", ";", ":")
 
--- enter filetree using <leader>pv
+-- enter netrw filetree using <leader>pv
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 

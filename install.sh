@@ -8,6 +8,7 @@ curl https://sh.rustup.rs -sSf | sh
 # neovim
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
 tar -xf nvim-linux64.tar.gz
+mv nvim-linux64 ~/nvim-linux64
 rm nvim-linux64.tar.gz
 
 # nvm, node, pnpm, turbo
