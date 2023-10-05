@@ -22,6 +22,6 @@ jobs:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
           body: |
-            The latest release of our 2023 FLL code or its corresponding libs.
+            The latest release of our shared dotfiles.
           draft: false
           prerelease: false
